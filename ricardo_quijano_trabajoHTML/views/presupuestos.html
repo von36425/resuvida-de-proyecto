@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css.css/presupuestos.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <img class="logo" src="../assets/imagenes/deslumbrante.png" alt="LOGO DE DESLUMBRANTE">
+            
+            <a href="../index.html">menu</a>
+            <a href="contacto.html">contacto</a>
+            <a href="presupuestos.html">presupuestos</a>
+            <a href="productos.html">productos</a>             
+        </nav>
+    </header>
+    
+    <form action="datos" method="post">
+
+        <div class="nombre">
+            <label for="nombre">ingrese su nombre</label><br>
+        <input type="text" placeholder="escribe tu nombre" maxlength="10" name="nombre" id="nombre"><br>
+        </div>
+
+        <div class="correoelectronico">
+            <label for="correoelectronico">ingrese su correoelectronico</label><br>
+        <input type="email" placeholder="escribe tu correoelectronico" maxlength="30" name="correoelectronico" id="correoelectronico"><br>
+        </div>
+
+        <div  class="telefono">
+            <label for="telefono">telefono</label><br>
+        <input type="tel" placeholder="escribe tu telefono" title="debe colocar su numero de telefono " pattern="[0-9]{3}-[0-9]{3}-{0-9}{4} " maxlength="10" name="telefono" id="telefono"><br>
+        </div>
+
+        <div class="informacion">
+            <label for="informacion">mas informacion</label><br>
+        <input type="text" placeholder="color favorito" name="informacion" id="informacion"><br>
+        <input type="text" placeholder="libro que mas te gusta " name="informacion" ><br>
+        <input type="text" placeholder="articulos mas usados " name="informacion" ><br>
+        <input type="text" placeholder="colecion que mas usas " name="informacion" ><br>
+        </div>
+
+        <div class="checkbox">
+            <br>
+        <input type="checkbox" name="checkbox" value="verdadero" checked>autorizo el uso de mis datos 
+        </div> 
+
+        <div class="enviar">
+            <label for="enviar"></label><br>
+            <input type="submit"  id="enviar">
+        </div>
+    </form>
+    
+    <footer >
+        <a  href="https://www.instagram.com/?hl=es" target="_blank"><img src="../assets/imagenes/istagram.jpg" alt="istagram" width="1200" height="800" ></a>
+        <a  href="https://www.youtube.com/" target="_blank"><img src="../assets/imagenes/youtube.webp" alt="youtube" width="1268" height="664" ></a>
+        <a  href="https://www.facebook.com/" target="_blank"><img src="../assets/imagenes/facebook.png" alt="facebook"  width="293" height="172" ></a>
+        <a  href="https://github.com/von36425/ricardo-deslumbrante.html" target="_blank"><img src="../assets/imagenes/github.webp" alt="github" width="720" height="720" ></a>
+    </footer>
+</body>
+</html>
